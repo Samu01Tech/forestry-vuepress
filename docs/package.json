@@ -1,0 +1,19 @@
+{
+  "name": "forestry-vuepress",
+  "version": "0.0.1",
+  "description": "a vuepress blog powered by forestry",
+  "main": "index.js",
+  "authors": {
+    "name": "Samuele Mazzei",
+    "email": "samumaz01@gmail.com"
+  },
+  "repository": "https://github.com/Samu01Tech/forestry-vuepress/forestry-vuepress",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
