@@ -1,6 +1,7 @@
 ---
 label: post
 hide_body: false
+display_field: title
 fields:
 - name: title
   type: text
@@ -63,3 +64,34 @@ fields:
       path: 
   label: Posizione
   description: The position of the restaurant
+- name: time
+  type: number
+  label: Orario di Apertura
+  description: Gli orari di apertura
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+    required: false
+- name: phone
+  type: text
+  config:
+    required: false
+  label: Telefono
+  description: The phone number
+- name: type
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Take Away
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Tipo
+  description: The type of the restaurant
