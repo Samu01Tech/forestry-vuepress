@@ -9,15 +9,15 @@ sections:
   label: Post
   create: documents
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 - type: directory
   path: docs/src
   label: Pagine
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
-upload_dir: uploads
-public_path: "/uploads"
+  new_doc_ext: md
+upload_dir: ''
+public_path: https://res.cloudinary.com/{{ CLOUD_NAME }}/image/upload
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
